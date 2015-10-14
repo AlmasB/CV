@@ -1,0 +1,233 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Plasmati Graduate CV
+% LaTeX Template
+% Version 1.0 (24/3/13)
+%
+% This template has been downloaded from:
+% http://www.LaTeXTemplates.com
+%
+% Original author:
+% Alessandro Plasmati (alessandro.plasmati@gmail.com)
+%
+% CV author:
+% Almas Baimagambetov (almaslvl@gmail.com)
+%
+% License:
+% CC BY-NC-SA 3.0 (http://creativecommons.org/licenses/by-nc-sa/3.0/)
+%
+% Important note:
+% This template needs to be compiled with XeLaTeX.
+% The main document font is called Fontin and can be downloaded for free
+% from here: http://www.exljbris.com/fontin.html
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%----------------------------------------------------------------------------------------
+%	PACKAGES AND OTHER DOCUMENT CONFIGURATIONS
+%----------------------------------------------------------------------------------------
+
+\documentclass[a4paper,10pt]{article} % Default font size and paper size
+
+\usepackage{fontspec} % For loading fonts
+\defaultfontfeatures{Mapping=tex-text}
+\setmainfont{Fontin-SmallCaps.otf} % Main document font
+
+\usepackage{xunicode,xltxtra,url,parskip} % Formatting packages
+
+\usepackage[usenames,dvipsnames]{xcolor} % Required for specifying custom colors
+
+\usepackage[big]{layaureo} % Margin formatting of the A4 page, an alternative to layaureo can be \usepackage{fullpage}
+% To reduce the height of the top margin uncomment: \addtolength{\voffset}{-1.3cm}
+
+\usepackage{hyperref} % Required for adding links	and customizing them
+\definecolor{linkcolour}{rgb}{0,0.2,0.6} % Link color
+\hypersetup{colorlinks,breaklinks,urlcolor=linkcolour,linkcolor=linkcolour} % Set link colors throughout the document
+
+\usepackage{titlesec} % Used to customize the \section command
+\titleformat{\section}{\Large\scshape\raggedright}{}{0em}{}[\titlerule] % Text formatting of sections
+\titlespacing{\section}{0pt}{3pt}{3pt} % Spacing around sections
+
+\begin{document}
+
+\pagestyle{empty} % Removes page numbering
+
+\font\fb=''[cmr10]'' % Change the font of the \LaTeX command under the skills section
+
+%----------------------------------------------------------------------------------------
+%	NAME AND CONTACT INFORMATION
+%----------------------------------------------------------------------------------------
+
+\par{\centering{\Huge Almas \textsc{Baimagambetov}}\bigskip\par} % Your name
+
+%----------------------------------------------------------------------------------------
+%	WORK EXPERIENCE 
+%----------------------------------------------------------------------------------------
+
+\section{Work Experience}
+
+\begin{tabular}{r|p{11cm}}
+\textsc{Oct 2015 - Present} & \textsc{Computer Science} Tutor for 1\textsuperscript{st} and 2\textsuperscript{nd} year students \\
+& \emph{University of Brighton, UK}\\
+\multicolumn{2}{c}{} \\
+
+%------------------------------------------------
+
+\textsc{June 2014 - Sept. 2014} & English-Russian Interpreter\\
+& \emph{LLP AktubNIGRI, Kazakhstan}\\
+\multicolumn{2}{c}{} \\
+
+%------------------------------------------------
+
+\textsc{Oct. 2012 - Feb. 2015} & (Volunteer) Guest Speaker and Mentor for IT students\\
+& \emph{Bellerbys College, UK}\\
+\multicolumn{2}{c}{} \\
+
+\end{tabular}
+\vspace{1cm}
+
+%----------------------------------------------------------------------------------------
+%	EDUCATION
+%----------------------------------------------------------------------------------------
+
+\section{Education}
+
+\begin{tabular}{r|p{11cm}}
+\textsc{July 2015 - Present} & PhD in \textsc{Computing, Engineering and Mathematics},\\
+& \textbf{University of Brighton}, UK\\
+\multicolumn{2}{c}{} \\
+
+%------------------------------------------------
+	
+\textsc{July} 2015 & BSc in \textsc{Computer Science (Games)}, \textbf{University of Brighton}, UK\\
+& \small\emph{First Class Honours} | Final Year Project: \\
+& Analysis of Software Development Issues in Large Scale Games\\
+&\normalsize \textsc{Grade}: 87\% \hyperlink{grds}{\hfill | \footnotesize Modules Studied}\\
+\multicolumn{2}{c}{} \\
+
+%------------------------------------------------
+
+\textsc{June} 2012 & Foundation Degree in \textsc{IT}, \normalsize\textbf{Bellerbys College International}, UK\\
+&\normalsize \textsc{Grade}: 94\% \\
+\multicolumn{2}{c}{} \\
+
+%------------------------------------------------
+
+\textsc{July} 2011 & English Language Training \textbf{St. Giles International}, UK \\
+& Final Level: Advanced\\
+\multicolumn{2}{c}{} \\
+
+\end{tabular}
+\vspace{1cm}
+
+%----------------------------------------------------------------------------------------
+%	SCHOLARSHIPS AND ADDITIONAL INFO
+%----------------------------------------------------------------------------------------
+
+\section{Scholarships and Certificates}
+
+\begin{tabular}{rl}
+\textsc{Sept.} 2015 & International Research Scholarship, University of Brighton \normalsize\\
+\\
+\textsc{July} 2015 & Best Final Year Development Project, University of Brighton \\
+\\
+\textsc{Nov.} 2014 & Academic Merit Based Scholarship, University of Brighton \\
+\\
+\textsc{Nov.} 2013 & Academic Merit Based Scholarship, University of Brighton \\
+\\
+\textsc{June} 2012 & Top \#1 Foundation Student, Bellerbys College \\
+\\
+\textsc{May} 2012 & Best IT Student, Bellerbys College \\
+\end{tabular}
+
+\pagebreak
+
+%----------------------------------------------------------------------------------------
+%	LANGUAGES
+%----------------------------------------------------------------------------------------
+
+\section{Languages}
+
+\begin{tabular}{rl}
+\textsc{English:} & Fluent / Professional\\
+
+\textsc{Kazakh:} & Native\\
+
+\textsc{Russian:} & Native\\
+\end{tabular}
+\bigskip
+
+%----------------------------------------------------------------------------------------
+%	PERSONAL SKILLS 
+%----------------------------------------------------------------------------------------
+
+\section{Key Personal Skills}
+
+\begin{itemize}
+    \item Theoretical and analytical problem-solving skills
+    \item Self-motivated, hard-working and independent
+    \item Ability to quickly adapt to new technologies and learning environments
+    \item Ability to quickly establish inter-personal communication
+    \item Ability to lead, manage and oversee different aspects of various development projects
+\end{itemize}
+\bigskip
+
+%----------------------------------------------------------------------------------------
+%	TECHNICAL SKILLS 
+%----------------------------------------------------------------------------------------
+
+\section{Technical Skills}
+
+\begin{tabular}{rl}
+Basic Knowledge: & SQL, HTML5, CSS3, Haskell, Python, Node.js, {\fb \LaTeX}\setmainfont{Fontin-Regular.otf}\\
+& Spring, FDD, TDD, Agile \\
+
+Intermediate Knowledge: & C++, SDL2, OpenGL, Git, Win/Mac/Linux/Android\\
+
+Advanced Knowledge: & Java, JavaFX, FXML, JS, JMonkey, Maven \\
+& API Development, Software Development Principles and Practices \\
+\end{tabular}
+\bigskip
+
+%----------------------------------------------------------------------------------------
+%	INTERESTS AND ACTIVITIES
+%----------------------------------------------------------------------------------------
+
+\section{Interests and Activities}
+
+Education, Technology, Open-Source, Software Development, Programming\\
+Data Visualization, Automated Graphical Layout Management \& Drawing\\
+Chess, Cybersport\\
+\bigskip
+
+%----------------------------------------------------------------------------------------
+%	GRADE TABLES
+%----------------------------------------------------------------------------------------
+
+\par{\centering\Large \hypertarget{grds}{BSc in \textsc{Computer Science (Games)}}\par}\large{\centering Grades\par}\normalsize
+
+\begin{center}
+\begin{tabular}{lcc}
+\multicolumn{1}{c}{\textsc{Module}} & \textsc{Grade}&\textsc{Credits}\\ \hline
+Mobile Application Development & A+ & 20\\
+Programming languages, concurrency and client server computing & A & 20\\
+Applied Intelligent Systems & A+ & 10\\
+Emerging Games Technologies & A+ & 20\\
+Computer Graphics Algorithms & A+ & 10\\
+Final Year Project & A+ & 40\\
+\end{tabular}
+\end{center}
+\bigskip
+\hrule
+\vspace{1cm}
+
+%----------------------------------------------------------------------------------------
+
+\section{Contact Details}
+
+\begin{tabular}{rl}
+\textsc{Google+:} & \href{https://www.google.com/+AlmasB0}{https://www.google.com/+AlmasB0} \\
+\textsc{GitHub:}  & \href{https://github.com/AlmasB}{https://github.com/AlmasB} \\
+\textsc{Email:}   & \href{mailto:almaslvl@gmail.com}{almaslvl@gmail.com}
+\end{tabular}
+
+\end{document}
