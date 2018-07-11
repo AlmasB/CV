@@ -36,16 +36,21 @@
 
 \usepackage[usenames,dvipsnames]{xcolor} % Required for specifying custom colors
 
-\usepackage[big]{layaureo} % Margin formatting of the A4 page, an alternative to layaureo can be \usepackage{fullpage}
+%\usepackage[big]{layaureo} % Margin formatting of the A4 page, an alternative to layaureo can be \usepackage{fullpage}
 % To reduce the height of the top margin uncomment: \addtolength{\voffset}{-1.3cm}
 
 \usepackage{hyperref} % Required for adding links	and customizing them
-\definecolor{linkcolour}{rgb}{0,0.2,0.6} % Link color
+\definecolor{linkcolour}{rgb}{0.1,0.3,1.0} % Link color
 \hypersetup{colorlinks,breaklinks,urlcolor=linkcolour,linkcolor=linkcolour} % Set link colors throughout the document
 
 \usepackage{titlesec} % Used to customize the \section command
 \titleformat{\section}{\Large\scshape\raggedright}{}{0em}{}[\titlerule] % Text formatting of sections
 \titlespacing{\section}{0pt}{3pt}{3pt} % Spacing around sections
+
+\setlength{\oddsidemargin}{0cm}
+\setlength{\topmargin}{0cm}
+\setlength{\textwidth}{16cm}
+\setlength{\textheight}{25cm}
 
 \begin{document}
 
@@ -59,28 +64,47 @@
 
 \par{\centering{\Huge Almas Baimagambetov}\bigskip\par} % Your name
 
+\section{Statement}
+
+I am an active researcher in the field of automated diagram generation.
+I teach a range of Computer Science modules to 1st, 2nd and 3rd year
+university students.
+I contribute to a number of open-source projects on \href{https://github.com/AlmasB}{GitHub}.
+I run an educational \href{https://www.youtube.com/almasb0/videos}{YouTube} channel covering
+game and software development.
+
 %----------------------------------------------------------------------------------------
 %	WORK EXPERIENCE 
 %----------------------------------------------------------------------------------------
 
-\section{Overview}
+\section{Work Experience}
 
 \begin{tabular}{r|p{11cm}}
-\textsc{Oct 2015 - Present} & Hourly-Paid Lecturer in \textsc{Computer Science}\\
+
+Oct. 2017 - Present & Part-time Lecturer \& Module Leader in Game Development\\
 & \emph{University of Brighton, UK}\\
 \multicolumn{2}{c}{} \\
 
 %------------------------------------------------
 
-\textsc{Oct. 2012 - Feb. 2015} & (Volunteer) Guest Speaker and Mentor for IT students\\
-& \emph{Bellerbys College, UK}\\
+Oct. 2015 - Oct. 2017 & Hourly-Paid Lecturer in Programming and\\
+& Game Design \& Development\\
+& \emph{University of Brighton, UK}\\
+\multicolumn{2}{c}{} \\
+
+%------------------------------------------------
+
+June 2014 - Oct. 2016 & English-Russian Interpreter (Zero-Hour Contract)\\
+& \emph{LLP AktubNIGRI, Kazakhstan}\\
+\multicolumn{2}{c}{} \\
+
+%------------------------------------------------
+
+Jan 2013 - Oct. 2016 & In-house Programmer (Zero-Hour Contract)\\
+& \emph{LLP AktubNIGRI, Kazakhstan}\\
 \multicolumn{2}{c}{} \\
 
 \end{tabular}
-
-I have not previously participated in any graduate consortia.
-
-\vspace{1cm}
 
 %----------------------------------------------------------------------------------------
 %	EDUCATION
@@ -89,82 +113,88 @@ I have not previously participated in any graduate consortia.
 \section{Education}
 
 \begin{tabular}{r|p{11cm}}
-\textsc{July 2015 - Present} & PhD in \textsc{Computing, Engineering and Mathematics},\\
-& \textbf{University of Brighton}, UK\\
-& Title: Automated Visualization of Grouped Networks\\
+July 2015 - Oct. 2018 & \textbf{PhD in Computer Science}, University of Brighton, UK\\
+(Expected)& Thesis: Automated visualization of grouped networks\\
+& using Euler diagrams and graphs\\
+& keywords: set theory, graph theory, topology,\\
+& computational geometry \& graphics \\
 \multicolumn{2}{c}{} \\
 
 %------------------------------------------------
 	
-\textsc{July} 2015 & BSc in \textsc{Computer Science (Games)}, \textbf{University of Brighton}, UK\\
-& \emph{First Class Honours} | Final Year Project: \\
-& Analysis of Software Development Issues in Large Scale Games\\
-&\normalsize \textsc{Grade}: 87\% \\
+Oct.2012 - July 2015 & \textbf{BSc Computer Science (Games)}, University of Brighton, UK\\
+& Final year project: \\
+& Analysis of software development issues in large scale games\\
+&\normalsize Project grade: \textbf{87\% (A+)}, Degree: \textbf{1st Class Honours} \\
 \multicolumn{2}{c}{} \\
 
 %------------------------------------------------
 
-\textsc{June} 2012 & Foundation Degree in \textsc{IT}, \normalsize\textbf{Bellerbys College}, UK\\
-&\normalsize \textsc{Grade}: 94\% \\
-\multicolumn{2}{c}{} \\
-
-%------------------------------------------------
-
-\textsc{July} 2011 & English Language Training, \textbf{St. Giles International}, UK \\
-& Final Level: Advanced\\
+Sept. 2011 - June 2012 & \textbf{Foundation Degree in IT}, Bellerbys College, UK\\
+&\normalsize Grade: \textbf{94\% (A+)} \\
 \multicolumn{2}{c}{} \\
 
 \end{tabular}
-\vspace{1cm}
+
+
 
 %----------------------------------------------------------------------------------------
 %	SCHOLARSHIPS AND ADDITIONAL INFO
 %----------------------------------------------------------------------------------------
 
-
-%----------------------------------------------------------------------------------------
-%	LANGUAGES
-%----------------------------------------------------------------------------------------
-
-\section{Languages}
+\section{Awards}
 
 \begin{tabular}{rl}
-\textsc{English:} & Fluent / Professional\\
-
-\textsc{Kazakh:} & Native\\
-
-\textsc{Russian:} & Native\\
+June 2018 & Best Student Paper, Diagrams 2018 Conference\\
+\\
+Sept. 2015 & International Research Scholarship (50\% fee reduction)\\ &University of Brighton\\
+\\
+July 2015 & Best Final Year Development Project (£250)\\ &The FDM Group Prize \\
+\\
+Nov. 2014 & Academic Merit Based Scholarship (£1000)\\ &University of Brighton \\
+\\
+Nov. 2013 & Academic Merit Based Scholarship (£1000)\\ &University of Brighton \\
+\\
+June 2012 & Top \#1 Foundation Student, Bellerbys College \\
+\\
+May 2012 & Best IT Student, Bellerbys College \\
 \end{tabular}
-\bigskip
 
-%----------------------------------------------------------------------------------------
-%	PERSONAL SKILLS 
-%----------------------------------------------------------------------------------------
 
-%----------------------------------------------------------------------------------------
-%	TECHNICAL SKILLS 
-%----------------------------------------------------------------------------------------
 
-%----------------------------------------------------------------------------------------
-%	INTERESTS AND ACTIVITIES
-%----------------------------------------------------------------------------------------
+% Papers
 
-\section{Interests}
+%\hypertarget{papers}
+\section{Research Talks}
 
-Education, Technology, Open Source, Software Development, Programming\\
-Data Visualization, Automated Diagram Generation, Diagrammatic Reasoning\\
-\bigskip
-
-%----------------------------------------------------------------------------------------
-%	GRADE TABLES
-%----------------------------------------------------------------------------------------
-
-%----------------------------------------------------------------------------------------
-
-\section{Contact Details}
-
+\begin{center}
 \begin{tabular}{rl}
-\textsc{Email:}   & \href{mailto:A.Baimagambetov1@uni.brighton.ac.uk}{A.Baimagambetov1@uni.brighton.ac.uk}
+June 2018 & Generating Effective Euler Diagrams\\ & (10th International Conference on the Theory and Application of Diagrams) \\
+\\
+May 2017 & Novel Algorithm for Euler Diagram Generation\\ & (University of Brighton Internal Conference) \\
+\\
+March 2017 & Data Visualization Workshop\\ & (Presenter at Data Visualization Brighton Meetup) \\
+\\
+Feb. 2017 & An Inductive Approach to P-preserving Euler Diagram Generation\\ & (Visual Modelling Group Talk) \\
+\\
+June 2016 & Grouped Networks and Associated Challenges\\ & (University of Brighton Internal Conference) \\
+\\
+May 2016 & Euler Diagram Generation Techniques\\ & (Visual Modelling Group Talk) \\
 \end{tabular}
+\end{center}
+
+
+
+\section{Publications}
+
+1. \textbf{Baimagambetov, A.}, Howse, J., Stapleton, G. and Delaney, A. (2018)
+Generating Effective Euler Diagrams In:
+10th International Conference on the Theory and Application of Diagrams, Edinburgh, 18-22 June 2018.
+(Accepted for long paper).
+
+2. \textbf{Baimagambetov, A.} (2018)
+Automated Visualization of Grouped Networks In:
+10th International Conference on the Theory and Application of Diagrams, Edinburgh, 18-22 June 2018.
+(Accepted for Graduate Symposium report).
 
 \end{document}
